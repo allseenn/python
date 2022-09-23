@@ -1,0 +1,20 @@
+text = "eat some more of these soft french roll"
+print(len(text))
+print("more" in text)
+print(text.isdigit())
+print(text.islower())
+print(text.replace("mor", "MORE"))
+for c in text:
+    print(c)
+print(text[0])
+print(text[1])
+print(text[len(text)-1])
+print(text[-5])
+print(text[:1])
+print(text[:2])
+print(text[len(text)-2:])
+print(text[2:9])
+print(text[6:-18])
+print(text[0:len(text):6])
+print(text[::6])
+text = text[2:9] + text[-5] + text[:2]

@@ -1,0 +1,5 @@
+r = range(5) # range(0, 5)
+r = range(2, 5) # range(2, 5)
+r = range(-5, 0) # range(-5, 0)
+r = range(1, 10, 2) # range(1, 10, 2)
+r = range(100, 0, -20) # range(100, 0, -20)

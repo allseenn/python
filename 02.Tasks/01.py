@@ -1,4 +1,4 @@
-# Задача 1. Напишите программу, которая принимает 
+# Задача 1. Напишите программу, которая принимает
 # на вход вещественное число и показывает сумму его цифр.
 # Пример:
 # 6782 -> 23
@@ -9,8 +9,8 @@ number = str(input("Enter a real number: "))
 if number[0] == "-":
     number.pop(0)
 for digit in number:
-    if(digit == "," or digit == "."):
+    if (digit == "," or digit == "."):
         digit = 0
     summa = summa + int(digit)
 
-print(summa)
+print(f"{number} -> {summa}")

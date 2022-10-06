@@ -11,7 +11,7 @@ if number == 0:
 while (number > 0):
     if number % 2 == 0:
         my_binary = "0"+ my_binary
-    if number % 2 == 1:
+    else:
         my_binary = "1"+ my_binary
     number //= 2
 print(my_binary)

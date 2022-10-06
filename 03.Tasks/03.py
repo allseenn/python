@@ -12,7 +12,7 @@ while(count <= length):
     count += 1
 print(my_list, end=" => ")
 max = 0
-min = 0.99
+min = 1
 for i in my_list:
     if i % 1 > max:
         max = i % 1

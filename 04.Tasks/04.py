@@ -26,7 +26,7 @@ def small_power(x):
 my_power = int(input("Enter any power number: "))
 my_dict = {}
 for i in range(my_power+1):
-    my_dict[i] = randint(0,10)
+    my_dict[i] = randint(0,100)
 count = len(my_dict)-1
 print(f"Power: Coefficient list {my_dict}")
 file_data = "k="

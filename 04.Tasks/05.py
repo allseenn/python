@@ -86,7 +86,7 @@ for i in data3:
 # write last file3.txt with sum of polynomials
 with open('file3.txt', 'w', encoding='utf-8') as file:
     file.writelines(data3_string)
-# Print contents of three files for Reviewer performance :))
+# Print contents of three files for Reviewers better performance :))
 print(f'file1.txt: {cat_file("file1.txt")}')
 print(f'file2.txt: {cat_file("file2.txt")}')
 print(f'file3.txt: {cat_file("file3.txt")}')

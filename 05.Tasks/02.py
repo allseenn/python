@@ -29,7 +29,7 @@ def bot_quantity(min, max, candies):
     print(f"{bot}, takes {candy} candies")
     return candy
 # Games VARS, could be changed
-candies = 221
+candies = 2021
 max = 28
 min = 1
 bot = "Bot"

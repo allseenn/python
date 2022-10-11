@@ -15,25 +15,31 @@ def man_quantity(min, max):
         print ("You could take more than 0 and no more than 28 candies!")
         candy = int(input("How many candies you takes?: "))
     return candy
-# Function bot take random candies
-def bot_quantity(min, max):
-    candy = random.randint(min, max+1)
+# Function bot takes random candies
+# def bot_quantity(min, max):
+#     candy = random.randint(min, max)
+#     print(f"{bot}, takes {candy} candies")
+#     return candy
+def bot_quantity(min, max, candies):
+    if candies > 27:
+        candy = candies%(max+min)
+    else:
+        candy = candies
+    # candy = random.randint(min, max)
     print(f"{bot}, takes {candy} candies")
     return candy
-# Print rules of the game
-text = "On the desk is 2021 candies.\n\
-2 players make move one by one.\n\
-Who is first player decides the lot.\n\
-With on movie player could take no more than 28 candies\n\
-Winner is player with last move.\n\
-How many candies must take first player to win?"
-print(text)
 # Games VARS, could be changed
 candies = 221
 max = 28
 min = 1
 bot = "Bot"
-##############################
+# Print rules of the game
+text = " candies is on the desk.\n\
+2 players make move one by one.\n\
+Who is first player decides the lot.\n\
+Winner is player with last move.\n\
+With one move player could take from "
+print(f'{candies}{text}{min} till {max} candies.')
 man = input("Enter your name: ")
 # First player random choice
 lot = random.choice([man, bot])
@@ -42,9 +48,9 @@ if lot == bot:
 else:
     print(f"{man}, you're first player")
 # Game core
-while candies > 1:
+while candies > 0:
     if lot == bot:
-        candies -= bot_quantity(min, max)
+        candies -= bot_quantity(min, max, candies)
         if candies < 0:
             break
         print(f'{candies} candies left')
@@ -55,6 +61,5 @@ while candies > 1:
             break
         print(f'{candies} candies left')
         lot = bot
-
 # Who is looser :))
-print(f"{lot}, is lost, {candies} candies!")
+print(f"{lot}, is lost!")

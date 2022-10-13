@@ -19,4 +19,4 @@ import random
 syllables = ["ма", "за", "ба", "ка", "ша", "бв"]
 text = list(map(lambda x: "".join(random.sample(syllables,2)), range(random.randint(14,16))))
 print(*text)
-print(*[x for x in text if "абв" not in x])
+print(*filter(lambda x: "абв" not in x, text))

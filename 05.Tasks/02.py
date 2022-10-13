@@ -21,7 +21,7 @@ def man_quantity(min, max):
 #     print(f"{bot}, takes {candy} candies")
 #     return candy
 def bot_quantity(min, max, candies):
-    if candies > 27:
+    if candies > max:
         candy = candies%(max+min)
     else:
         candy = candies
@@ -29,7 +29,7 @@ def bot_quantity(min, max, candies):
     print(f"{bot}, takes {candy} candies")
     return candy
 # Games VARS, could be changed
-candies = 2021
+candies = 221
 max = 28
 min = 1
 bot = "Bot"

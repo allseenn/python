@@ -13,7 +13,7 @@ while(count <= length):
 print(my_list, end=" -> ")
 summa = 0
 count = 0
-print("odd elements has indexes", end=" ")
+print("odd indexes has values", end=" ")
 for i in my_list:
     if count % 2 != 0:
         print(f"{i},", end=" ")

@@ -1,0 +1,12 @@
+{
+    "csv-preview.capitalizeHeaders": false,
+    "csv-preview.formatValues": "unquoted",
+    "csv-preview.hasHeaders": false,
+    "csv-preview.lineNumbers": "ordinal",
+    "csv-preview.quoteMark": "",
+    "csv-preview.openStdin": true,
+    "csv-preview.resizeColumns": "first",
+    "csv-preview.separator": ";",
+    "csv-preview.skipComments": true,
+    "files.eol": "\n"
+}

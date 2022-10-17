@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<person>
+	<SocID>50221945631</SocID>
+	<FullName>Ряявлоко Ф.Э.</FullName>
+	<BirthDay>1996-01-22</BirthDay>
+	<Position>фельдшер</Position>
+	<Health>2</Health>
+	<Address>Трикотажный проезд д.40 кв.58</Address>
+	<Mobile>89992051227</Mobile>
+	<Phone>84952506662</Phone>
+</person>
+<person>
+	<SocID>81737515782</SocID>
+	<FullName>Ратевич Е.Д.</FullName>
+	<BirthDay>1975-07-08</BirthDay>
+	<Position>фельдшер</Position>
+	<Health>2</Health>
+	<Address>Шелепихинская набережная д.13 кв.124</Address>
+	<Mobile>89038455945</Mobile>
+	<Phone>84992346540</Phone>
+</person>
+<person>
+	<SocID>83106735680</SocID>
+	<FullName>Ибигхурин С.Т.</FullName>
+	<BirthDay>1972-07-27</BirthDay>
+	<Position>фельдшер</Position>
+	<Health>2</Health>
+	<Address>Новотушинский проезд д.8 кв.257</Address>
+	<Mobile>89059709828</Mobile>
+	<Phone>84952352001</Phone>
+</person>
+<person>
+	<SocID>31777787145</SocID>
+	<FullName>Уцажлов Ю.М.</FullName>
+	<BirthDay>1975-12-19</BirthDay>
+	<Position>фельдшер</Position>
+	<Health>2</Health>
+	<Address>Карамышевская набережная д.55 кв.275</Address>
+	<Mobile>89176396951</Mobile>
+	<Phone>84958042307</Phone>
+</person>
+<person>
+	<SocID>92141210717</SocID>
+	<FullName>Хубылин Х.Е.</FullName>
+	<BirthDay>1991-10-28</BirthDay>
+	<Position>фельдшер</Position>
+	<Health>2</Health>
+	<Address>Аэродромная улица д.11 кв.48</Address>
+	<Mobile>89268680271</Mobile>
+	<Phone>84989094751</Phone>
+</person>
+<person>
+	<SocID>34119611032</SocID>
+	<FullName>Юшроузвич У.Ю.</FullName>
+	<BirthDay>1988-04-15</BirthDay>
+	<Position>фельдшер</Position>
+	<Health>2</Health>
+	<Address>Полесский проезд д.75 кв.10</Address>
+	<Mobile>89645044449</Mobile>
+	<Phone>84997863393</Phone>
+</person>
+<person>
+	<SocID>68726827348</SocID>
+	<FullName>Пыбяцев Ж.В.</FullName>
+	<BirthDay>1990-12-04</BirthDay>
+	<Position>фельдшер</Position>
+	<Health>2</Health>
+	<Address>Малая Набережная улица д.62 кв.283</Address>
+	<Mobile>89673139565</Mobile>
+	<Phone>84995220612</Phone>
+</person>
+<person>
+	<SocID>43505504602</SocID>
+	<FullName>Идесизнов Л.Э.</FullName>
+	<BirthDay>1986-09-05</BirthDay>
+	<Position>фельдшер</Position>
+	<Health>2</Health>
+	<Address>Лётная улица д.63 кв.221</Address>
+	<Mobile>89582107854</Mobile>
+	<Phone>84954416735</Phone>
+</person>
+<person>
+	<SocID>55837720964</SocID>
+	<FullName>Учпипов Р.Х.</FullName>
+	<BirthDay>1990-06-02</BirthDay>
+	<Position>фельдшер</Position>
+	<Health>2</Health>
+	<Address>Цветочный проезд д.2 кв.153</Address>
+	<Mobile>89019973479</Mobile>
+	<Phone>84957750967</Phone>
+</person>
+<person>
+	<SocID>75841039256</SocID>
+	<FullName>Уххелин Б.Л.</FullName>
+	<BirthDay>1979-11-26</BirthDay>
+	<Position>фельдшер</Position>
+	<Health>2</Health>
+	<Address>Полесский проезд д.87 кв.209</Address>
+	<Mobile>89017131044</Mobile>
+	<Phone>84957586457</Phone>
+</person>
+<person>
+	<SocID>66423756472</SocID>
+	<FullName>Ожафщивич Ф.Ф.</FullName>
+	<BirthDay>1977-06-30</BirthDay>
+	<Position>фельдшер</Position>
+	<Health>2</Health>
+	<Address>Пятницкое шоссе д.91 кв.77</Address>
+	<Mobile>89838405553</Mobile>
+	<Phone>84998720929</Phone>
+</person>
+<person>
+	<SocID>32740561459</SocID>
+	<FullName>Етдиларов А.Г.</FullName>
+	<BirthDay>1987-05-03</BirthDay>
+	<Position>фельдшер</Position>
+	<Health>2</Health>
+	<Address>Подмосковная улица д.67 кв.110</Address>
+	<Mobile>89585087263</Mobile>
+	<Phone>84991364953</Phone>
+</person>
+</xml>

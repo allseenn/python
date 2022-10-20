@@ -20,5 +20,6 @@
 #         min = i % 1
 # print(round(max - min, 2))
 import random
-my_list = [round(random.randint(0,9) + random.random(),2) for x in range(random.randint(5,10))]
+my_list = [0.1, 1, 2, 3, 0.4]
+#[round(random.randint(0,9) + random.random(),2) for x in range(random.randint(5,10))]
 print(f'{my_list} => {max([round(x % 1, 2) for x in my_list]) - min([round(x % 1, 2) for x in my_list])}')

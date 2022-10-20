@@ -18,8 +18,11 @@
 #     sum_list.append(my_list[count] * my_list[length])
 #     count += 1
 #     length -= 1
-# print(sum_list)
-import random
-my_list = [random.randint(0,9) for x in range(random.randint(5,10))]
-sum_list = [x*my_list[len(my_list)-n-1] for n, x in enumerate(my_list) if n < len(my_list)/2]
-print(f'{my_list} => {sum_list}')
+# # print(sum_list)
+# import random
+# my_list = [random.randint(0,9) for x in range(random.randint(5,10))]
+# sum_list = [x*my_list[len(my_list)-n-1] for n, x in enumerate(my_list) if n < len(my_list)/2]
+# print(f'{my_list} => {sum_list}')
+collection = [2, 3, 4, 9, 1, 3]
+length = len(collection)
+print(list(map(lambda i: collection[i] * collection[length - i - 1], range(length // 2 + length % 2))))

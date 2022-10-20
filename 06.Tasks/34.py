@@ -16,4 +16,5 @@
 #         my_binary = "1"+ my_binary
 #     number //= 2
 # print(my_binary)
-print((lambda x: str(x)+" -> "+str(bin(x)[2:]))(int(input("Enter a number: "))))
+#print((lambda x: str(x)+" -> "+str(bin(x)[2:]))(int(input("Enter a number: "))))
+print(f'\n{bin(int(5))[2:]}')

@@ -6,7 +6,7 @@ import mod_game as game
 import mod_log as log
 ########## TOKEN ##############
 TOKEN = ""
-# with open ('D:\Documents\Bots\GBpyBot.txt', 'r') as file:
+#with open ('D:\Documents\Bots\GBpyBot.txt', 'r') as file:
 #        TOKEN = file.readline()
 ###############################
 async def new(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:

@@ -33,7 +33,7 @@ def generate(size):
             address += " д." + str(random.randint(1, 99)) + " кв." + str(random.randint(1, 300))
             mobile = '8' + ''.join(random.sample(mobile_prefix, 1)) + str(random.randint(1111111, 9999999))
             phone = '8' + ''.join(random.sample(phone_prefix, 1)) + str(random.randint(1111111, 9999999))
-            with open("base.csv", "a") as file:
+            with open(BASE, "a") as file:
                 file.write(f'{soc_id};{last_name};{first_name};{middle_name};{birth_day};{position};{salary};{address};{mobile};{phone}\n')
         return f"База размером {size} записей создана"
     else:
@@ -103,3 +103,8 @@ def upload(upload):
             file.writelines(f'{data[0]};{data[1]};{data[2]};{data[3]};{data[4]};{data[5]};{data[6]};{data[7]};{data[8]};{data[9]}\n')
     return "Фай загружен"
 
+# def find_by_number(data: list, phone_number: str) -> str:
+#     for el in data:
+#         if el.get("Телефон") == phone_number:
+#             return f'{el.get("Фамилия")}, {el.get("Имя")}'
+#     return "Такой абонент отсутвует"

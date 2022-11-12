@@ -2,9 +2,9 @@ import telebot
 import logging
 import viewer
 ##### TOKEN ###############
-#with open ('D:\Documents\Bots\GBpyBot.txt', 'r') as file:
-#    TOKEN = file.readline()
-TOKEN = ""
+with open ('D:\Documents\Bots\GBpyBot.txt', 'r') as file:
+    TOKEN = file.readline()
+#TOKEN = ""
 #############################
 bot = telebot.TeleBot(TOKEN)
 
